@@ -1,0 +1,163 @@
+h1,p{
+    background-color: rgb(196, 255, 235);
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 0, 212);
+}
+img{
+    width:80%;
+    border: #4c00ff solid 6px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 70px;
+    color: aquamarine;
+    background-color: rgb(255, 194, 231);
+    display:block;
+    margin: auto;
+    border-radius: 30px;
+    width: 15%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.wrapper__title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.user input {
+    padding: 5px;
+    border: 1px solid #fff;
+    background: inherit;
+    border-radius: 5px;
+    font: inherit;
+    width: 100%;
+    color: #ffffff;
+}
+
+.user input:focus,
+.user input:active {
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.address-date {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery__title {
+    margin-bottom: 5%;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.select select {
+    width: 300px;
+    font: inherit;
+    background: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select option {
+    background: #272727;
+}
+
+.select textarea {
+    background: inherit;
+    font: inherit;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.select textarea:focus,
+.select textarea:active {
+    border: 1px solid #fff;
+    outline: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.delivery-info li {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    min-width: 300px;
+    cursor: pointer;
+    align-self: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #272727;
+    font: inherit;
+    color: #fff;
+}
+.wrapper
+{
+    background-color: rgb(169, 253, 253);
+    color: #da0024;
+    border: #ffee00 5px solid;
+}
+body{
+    background-color: #f1bbff;
+}
